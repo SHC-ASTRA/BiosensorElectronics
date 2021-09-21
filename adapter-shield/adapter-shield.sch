@@ -21,6 +21,7 @@ F 0 "J3" H 2400 5817 50  0000 C CNN
 F 1 "Camera" H 2400 5726 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 2350 5200 50  0001 C CNN
 F 3 "~" H 2350 5200 50  0001 C CNN
+F 4 "S9172-ND" H 2350 5200 50  0001 C CNN "Digikey Part Num"
 	1    2350 5200
 	1    0    0    -1  
 $EndComp
@@ -94,6 +95,7 @@ F 0 "JP6" V 11354 2317 50  0000 L CNN
 F 1 "Jumper" V 11445 2317 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 11400 2250 50  0001 C CNN
 F 3 "~" H 11400 2250 50  0001 C CNN
+F 4 "n/a" H 11400 2250 50  0001 C CNN "Digikey Part Num"
 	1    11400 2250
 	0    -1   1    0   
 $EndComp
@@ -378,18 +380,6 @@ F 3 "" H 10050 6300 50  0000 C CNN
 $EndComp
 Connection ~ 10050 6300
 $Comp
-L ArmElectronics_Library:Pololu_3730 U4
-U 1 1 6146EFC5
-P 6600 1750
-F 0 "U4" H 7000 2575 50  0000 C CNN
-F 1 "Pololu_3730" H 7000 2484 50  0000 C CNN
-F 2 "ArmElectronics_Footprints:Pololu_3730" H 7000 900 50  0001 C CNN
-F 3 "" H 7000 900 50  0001 C CNN
-F 4 "2183-3730-ND" H 6600 1750 50  0001 C CNN "Digikey Part Num"
-	1    6600 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Motor:Motor_Servo M1
 U 1 1 614701A5
 P 8250 6500
@@ -397,6 +387,7 @@ F 0 "M1" H 8582 6565 50  0000 L CNN
 F 1 "Motor_Servo" H 8582 6474 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8250 6310 50  0001 C CNN
 F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 8250 6310 50  0001 C CNN
+F 4 "n/a" H 8250 6500 50  0001 C CNN "Digikey Part Num"
 	1    8250 6500
 	1    0    0    -1  
 $EndComp
@@ -408,6 +399,7 @@ F 0 "M2" H 8582 7115 50  0000 L CNN
 F 1 "Motor_Servo" H 8582 7024 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8250 6860 50  0001 C CNN
 F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 8250 6860 50  0001 C CNN
+F 4 "n/a" H 8250 7050 50  0001 C CNN "Digikey Part Num"
 	1    8250 7050
 	1    0    0    -1  
 $EndComp
@@ -419,6 +411,7 @@ F 0 "M3" H 8582 7665 50  0000 L CNN
 F 1 "Motor_Servo" H 8582 7574 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8250 7410 50  0001 C CNN
 F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 8250 7410 50  0001 C CNN
+F 4 "n/a" H 8250 7600 50  0001 C CNN "Digikey Part Num"
 	1    8250 7600
 	1    0    0    -1  
 $EndComp
@@ -430,6 +423,7 @@ F 0 "M4" H 8582 8215 50  0000 L CNN
 F 1 "Motor_Servo" H 8582 8124 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8250 7960 50  0001 C CNN
 F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 8250 7960 50  0001 C CNN
+F 4 "n/a" H 8250 8150 50  0001 C CNN "Digikey Part Num"
 	1    8250 8150
 	1    0    0    -1  
 $EndComp
@@ -441,6 +435,7 @@ F 0 "M5" H 8582 8765 50  0000 L CNN
 F 1 "Motor_Servo" H 8582 8674 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8250 8510 50  0001 C CNN
 F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 8250 8510 50  0001 C CNN
+F 4 "n/a" H 8250 8700 50  0001 C CNN "Digikey Part Num"
 	1    8250 8700
 	1    0    0    -1  
 $EndComp
@@ -464,6 +459,7 @@ F 0 "J4" H 8428 10096 50  0000 L CNN
 F 1 "QWIIC_Generic_Conn" H 8428 10005 50  0000 L CNN
 F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 8250 10350 50  0001 C CNN
 F 3 "" H 8250 10350 50  0001 C CNN
+F 4 "n/a" H 8250 10350 50  0001 C CNN "Digikey Part Num"
 	1    8250 10350
 	1    0    0    -1  
 $EndComp
@@ -504,24 +500,12 @@ F 4 "285-2720-ND" H 7000 5100 50  0001 C CNN "Digikey Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery BT1
-U 1 1 6147EB16
-P 10550 1000
-F 0 "BT1" H 10658 1046 50  0000 L CNN
-F 1 "Battery" H 10658 955 50  0000 L CNN
-F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" V 10550 1060 50  0001 C CNN
-F 3 "~" V 10550 1060 50  0001 C CNN
-F 4 "n/a" H 10550 1000 50  0001 C CNN "Digikey Part Num"
-	1    10550 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Q_DUAL_PNP_PNP_C1B1B2C2E2E1 Q1
 U 1 1 6148F9AC
 P 10200 4300
 F 0 "Q1" H 10391 4254 50  0000 L CNN
 F 1 "Q_DUAL_PNP_PNP_C1B1B2C2E2E1" H 10391 4345 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10400 4400 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 10400 4400 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30437.pdf" H 10200 4300 50  0001 C CNN
 F 4 "DMMT5401-FDICT-ND" H 10200 4300 50  0001 C CNN "Digikey Part Num"
 	1    10200 4300
@@ -533,7 +517,7 @@ U 2 1 61491243
 P 10900 4300
 F 0 "Q1" H 11091 4254 50  0000 L CNN
 F 1 "Q_DUAL_PNP_PNP_C1B1B2C2E2E1" H 11091 4345 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11100 4400 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 11100 4400 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30437.pdf" H 10900 4300 50  0001 C CNN
 F 4 "DMMT5401-FDICT-ND" H 10900 4300 50  0001 C CNN "Digikey Part Num"
 	2    10900 4300
@@ -967,17 +951,17 @@ F 3 "" H 11000 5150 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	11000 5150 11000 5050
-Text Label 10550 800  0    50   ~ 0
+Text Label 10650 750  0    50   ~ 0
 V_BAT
 $Comp
 L power:GND #PWR070
 U 1 1 614DB882
-P 10550 1200
-F 0 "#PWR070" H 10550 950 50  0001 C CNN
-F 1 "GND" H 10550 1050 50  0000 C CNN
-F 2 "" H 10550 1200 50  0000 C CNN
-F 3 "" H 10550 1200 50  0000 C CNN
-	1    10550 1200
+P 10650 1250
+F 0 "#PWR070" H 10650 1000 50  0001 C CNN
+F 1 "GND" H 10650 1100 50  0000 C CNN
+F 2 "" H 10650 1250 50  0000 C CNN
+F 3 "" H 10650 1250 50  0000 C CNN
+	1    10650 1250
 	1    0    0    -1  
 $EndComp
 Text Label 6200 3750 2    50   ~ 0
@@ -1308,14 +1292,6 @@ Text Label 2800 3350 0    50   ~ 0
 STEP_STEP
 Text Label 2800 3250 0    50   ~ 0
 STEP_DIR
-Text Label 2800 3150 0    50   ~ 0
-STEP_~ENABLE~
-Text Label 2800 3050 0    50   ~ 0
-STEP_FAULT
-Text Label 2800 2950 0    50   ~ 0
-STEP_STALL
-Text Label 2800 2850 0    50   ~ 0
-STEP_BEMF_DIV
 Text Label 2800 1750 0    50   ~ 0
 BULB
 $Comp
@@ -1326,6 +1302,7 @@ F 0 "J6" H 13530 1492 50  0000 L CNN
 F 1 "Conn_01x02" H 13530 1401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 13450 1500 50  0001 C CNN
 F 3 "~" H 13450 1500 50  0001 C CNN
+F 4 "n/a" H 13450 1500 50  0001 C CNN "Digikey Part Num"
 	1    13450 1500
 	1    0    0    -1  
 $EndComp
@@ -1348,6 +1325,7 @@ F 0 "JP1" H 13150 1550 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 13150 1500 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13150 1250 50  0001 C CNN
 F 3 "~" H 13150 1250 50  0001 C CNN
+F 4 "n/a" H 13150 1250 50  0001 C CNN "Digikey Part Num"
 	1    13150 1250
 	1    0    0    -1  
 $EndComp
@@ -1427,6 +1405,7 @@ F 0 "J7" H 13530 2992 50  0000 L CNN
 F 1 "Conn_01x02" H 13530 2901 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 13450 3000 50  0001 C CNN
 F 3 "~" H 13450 3000 50  0001 C CNN
+F 4 "n/a" H 13450 3000 50  0001 C CNN "Digikey Part Num"
 	1    13450 3000
 	1    0    0    -1  
 $EndComp
@@ -1449,6 +1428,7 @@ F 0 "JP2" H 13150 3050 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 13150 3000 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13150 2750 50  0001 C CNN
 F 3 "~" H 13150 2750 50  0001 C CNN
+F 4 "n/a" H 13150 2750 50  0001 C CNN "Digikey Part Num"
 	1    13150 2750
 	1    0    0    -1  
 $EndComp
@@ -1528,6 +1508,7 @@ F 0 "J8" H 13530 4492 50  0000 L CNN
 F 1 "Conn_01x02" H 13530 4401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 13450 4500 50  0001 C CNN
 F 3 "~" H 13450 4500 50  0001 C CNN
+F 4 "n/a" H 13450 4500 50  0001 C CNN "Digikey Part Num"
 	1    13450 4500
 	1    0    0    -1  
 $EndComp
@@ -1550,6 +1531,7 @@ F 0 "JP3" H 13150 4550 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 13150 4500 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13150 4250 50  0001 C CNN
 F 3 "~" H 13150 4250 50  0001 C CNN
+F 4 "n/a" H 13150 4250 50  0001 C CNN "Digikey Part Num"
 	1    13150 4250
 	1    0    0    -1  
 $EndComp
@@ -1629,6 +1611,7 @@ F 0 "J9" H 13530 5992 50  0000 L CNN
 F 1 "Conn_01x02" H 13530 5901 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 13450 6000 50  0001 C CNN
 F 3 "~" H 13450 6000 50  0001 C CNN
+F 4 "n/a" H 13450 6000 50  0001 C CNN "Digikey Part Num"
 	1    13450 6000
 	1    0    0    -1  
 $EndComp
@@ -1651,6 +1634,7 @@ F 0 "JP4" H 13150 6050 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 13150 6000 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13150 5750 50  0001 C CNN
 F 3 "~" H 13150 5750 50  0001 C CNN
+F 4 "n/a" H 13150 5750 50  0001 C CNN "Digikey Part Num"
 	1    13150 5750
 	1    0    0    -1  
 $EndComp
@@ -1730,6 +1714,7 @@ F 0 "J10" H 14980 1492 50  0000 L CNN
 F 1 "Conn_01x02" H 14980 1401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 14900 1500 50  0001 C CNN
 F 3 "~" H 14900 1500 50  0001 C CNN
+F 4 "n/a" H 14900 1500 50  0001 C CNN "Digikey Part Num"
 	1    14900 1500
 	1    0    0    -1  
 $EndComp
@@ -1752,6 +1737,7 @@ F 0 "JP5" H 14600 1550 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 14600 1500 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 14600 1250 50  0001 C CNN
 F 3 "~" H 14600 1250 50  0001 C CNN
+F 4 "n/a" H 14600 1250 50  0001 C CNN "Digikey Part Num"
 	1    14600 1250
 	1    0    0    -1  
 $EndComp
@@ -1831,6 +1817,7 @@ F 0 "J11" H 14980 2992 50  0000 L CNN
 F 1 "Conn_01x02" H 14980 2901 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 14900 3000 50  0001 C CNN
 F 3 "~" H 14900 3000 50  0001 C CNN
+F 4 "n/a" H 14900 3000 50  0001 C CNN "Digikey Part Num"
 	1    14900 3000
 	1    0    0    -1  
 $EndComp
@@ -1908,6 +1895,7 @@ F 0 "J12" H 14980 4492 50  0000 L CNN
 F 1 "Conn_01x02" H 14980 4401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 14900 4500 50  0001 C CNN
 F 3 "~" H 14900 4500 50  0001 C CNN
+F 4 "n/a" H 14900 4500 50  0001 C CNN "Digikey Part Num"
 	1    14900 4500
 	1    0    0    -1  
 $EndComp
@@ -1985,6 +1973,7 @@ F 0 "J13" H 14980 5992 50  0000 L CNN
 F 1 "Conn_01x02" H 14980 5901 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 14900 6000 50  0001 C CNN
 F 3 "~" H 14900 6000 50  0001 C CNN
+F 4 "n/a" H 14900 6000 50  0001 C CNN "Digikey Part Num"
 	1    14900 6000
 	1    0    0    -1  
 $EndComp
@@ -2271,6 +2260,7 @@ F 0 "J2" H 6480 7842 50  0000 L CNN
 F 1 "Conn_01x08" H 6480 7751 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6400 7850 50  0001 C CNN
 F 3 "~" H 6400 7850 50  0001 C CNN
+F 4 "n/a" H 6400 7850 50  0001 C CNN "Digikey Part Num"
 	1    6400 7850
 	1    0    0    -1  
 $EndComp
@@ -2345,154 +2335,32 @@ F 3 "" H 11050 10250 50  0001 C CNN
 	1    11050 10250
 	1    0    0    -1  
 $EndComp
-Text Label 6400 1450 2    50   ~ 0
+Text Label 6000 2250 2    50   ~ 0
 STEP_STEP
-Text Label 6400 1550 2    50   ~ 0
+Text Label 6000 2350 2    50   ~ 0
 STEP_DIR
-Text Label 6400 2050 2    50   ~ 0
-STEP_~ENABLE~
-Text Label 6400 2250 2    50   ~ 0
-STEP_FAULT
-Text Label 7100 2400 3    50   ~ 0
-STEP_STALL
-Text Label 1900 1450 2    50   ~ 0
-STEP_CS
-Text Label 6400 1950 2    50   ~ 0
-STEP_CS
-Text Label 6400 1850 2    50   ~ 0
-SCK1
-Text Label 6400 1650 2    50   ~ 0
-CIPO1
-Text Label 6400 1750 2    50   ~ 0
-COPI1
-Text Label 7500 2750 0    50   ~ 0
-STEP_BEMF_DIV
-$Comp
-L Device:R_Small R19
-U 1 1 616EEEE9
-P 7700 2550
-F 0 "R19" V 7504 2550 50  0000 C CNN
-F 1 "20k" V 7595 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7700 2550 50  0001 C CNN
-F 3 "~" H 7700 2550 50  0001 C CNN
-F 4 "311-20.0KHRCT-ND" H 7700 2550 50  0001 C CNN "Digikey Part Num"
-	1    7700 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R16
-U 1 1 616EFEE0
-P 7300 2550
-F 0 "R16" V 7104 2550 50  0000 C CNN
-F 1 "10k" V 7195 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7300 2550 50  0001 C CNN
-F 3 "~" H 7300 2550 50  0001 C CNN
-F 4 "n/a" H 7300 2550 50  0001 C CNN "Digikey Part Num"
-	1    7300 2550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7500 2750 7500 2550
-Wire Wire Line
-	7500 2550 7600 2550
-Wire Wire Line
-	7500 2550 7400 2550
-Connection ~ 7500 2550
-Wire Wire Line
-	7200 2550 7200 2400
-$Comp
-L power:GND #PWR092
-U 1 1 61714A2A
-P 7850 2550
-F 0 "#PWR092" H 7850 2300 50  0001 C CNN
-F 1 "GND" H 7855 2377 50  0000 C CNN
-F 2 "" H 7850 2550 50  0001 C CNN
-F 3 "" H 7850 2550 50  0001 C CNN
-	1    7850 2550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7850 2550 7800 2550
-NoConn ~ 7000 2400
-NoConn ~ 6900 2400
-NoConn ~ 6400 2150
-NoConn ~ 6400 1150
-Text Label 7750 1200 0    50   ~ 0
+Text Label 7550 1250 0    50   ~ 0
 V_BAT
-Wire Wire Line
-	7750 1200 7700 1200
-Wire Wire Line
-	7600 1300 7700 1300
-Wire Wire Line
-	7700 1300 7700 1200
-Connection ~ 7700 1200
-Wire Wire Line
-	7700 1200 7600 1200
-$Comp
-L power:GND #PWR091
-U 1 1 617491FA
-P 7850 1400
-F 0 "#PWR091" H 7850 1150 50  0001 C CNN
-F 1 "GND" H 7855 1227 50  0000 C CNN
-F 2 "" H 7850 1400 50  0001 C CNN
-F 3 "" H 7850 1400 50  0001 C CNN
-	1    7850 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 1400 7700 1400
-Wire Wire Line
-	7600 1500 7700 1500
-Wire Wire Line
-	7700 1500 7700 1400
-Connection ~ 7700 1400
-Wire Wire Line
-	7700 1400 7600 1400
 $Comp
 L Connector_Generic:Conn_01x04 J14
 U 1 1 6175A323
-P 8250 1800
-F 0 "J14" H 8168 1375 50  0000 C CNN
-F 1 "Conn_01x04" H 8168 1466 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 8250 1800 50  0001 C CNN
-F 3 "~" H 8250 1800 50  0001 C CNN
-	1    8250 1800
+P 8000 2050
+F 0 "J14" H 7918 1625 50  0000 C CNN
+F 1 "Conn_01x04" H 7918 1716 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 8000 2050 50  0001 C CNN
+F 3 "~" H 8000 2050 50  0001 C CNN
+F 4 "n/a" H 8000 2050 50  0001 C CNN "Digikey Part Num"
+	1    8000 2050
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8050 1600 7600 1600
+	7800 1850 7000 1850
 Wire Wire Line
-	7600 1700 8050 1700
+	7000 1950 7800 1950
 Wire Wire Line
-	8050 1800 7600 1800
+	7800 2050 7000 2050
 Wire Wire Line
-	7600 1900 8050 1900
-$Comp
-L power:GND #PWR06
-U 1 1 6177FA0F
-P 5750 1350
-F 0 "#PWR06" H 5750 1100 50  0001 C CNN
-F 1 "GND" H 5755 1177 50  0000 C CNN
-F 2 "" H 5750 1350 50  0001 C CNN
-F 3 "" H 5750 1350 50  0001 C CNN
-	1    5750 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 1350 5750 1350
-$Comp
-L power:+3.3V #PWR05
-U 1 1 61789334
-P 5750 1250
-F 0 "#PWR05" H 5750 1100 50  0001 C CNN
-F 1 "+3.3V" V 5750 1500 50  0000 C CNN
-F 2 "" H 5750 1250 50  0000 C CNN
-F 3 "" H 5750 1250 50  0000 C CNN
-	1    5750 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 1250 5750 1250
+	7000 2150 7800 2150
 $Comp
 L Device:Q_PMOS_GSD Q10
 U 1 1 617CE21C
@@ -2504,5 +2372,162 @@ F 3 "~" H 10550 4000 50  0001 C CNN
 F 4 "SSM3J328RLFCT-ND" H 10550 4000 50  0001 C CNN "Digikey Part Num"
 	1    10550 4000
 	0    -1   -1   0   
+$EndComp
+$Comp
+L ASTRA_Library:Pololu_Compact_TB67S249FTG U4
+U 1 1 61804BCD
+P 6500 2000
+F 0 "U4" H 6500 2615 50  0000 C CNN
+F 1 "Pololu_Compact_TB67S249FTG" H 6500 2524 50  0000 C CNN
+F 2 "ASTRA_Footprints:DIP-16_500" H 6500 2000 50  0001 C CNN
+F 3 "" H 6500 2000 50  0001 C CNN
+F 4 "2183-3096-ND" H 6500 2000 50  0001 C CNN "Digikey Part Num"
+	1    6500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C8
+U 1 1 6184B4B4
+P 7350 1350
+F 0 "C8" H 7438 1396 50  0000 L CNN
+F 1 "100uF" H 7438 1305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm" H 7350 1350 50  0001 C CNN
+F 3 "~" H 7350 1350 50  0001 C CNN
+F 4 "1189-2182-ND" H 7350 1350 50  0001 C CNN "Digikey Part Num"
+	1    7350 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1250 7350 1250
+Wire Wire Line
+	7150 1250 7150 1650
+Wire Wire Line
+	7150 1650 7000 1650
+Connection ~ 7350 1250
+Wire Wire Line
+	7350 1250 7150 1250
+$Comp
+L power:GND #PWR091
+U 1 1 6185B79E
+P 7350 1650
+F 0 "#PWR091" H 7350 1400 50  0001 C CNN
+F 1 "GND" H 7355 1477 50  0000 C CNN
+F 2 "" H 7350 1650 50  0001 C CNN
+F 3 "" H 7350 1650 50  0001 C CNN
+	1    7350 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1650 7200 1650
+Wire Wire Line
+	7200 1650 7200 1750
+Wire Wire Line
+	7200 1750 7000 1750
+Wire Wire Line
+	7350 1650 7350 1450
+Connection ~ 7350 1650
+$Comp
+L power:GND #PWR06
+U 1 1 61880D21
+P 7200 2350
+F 0 "#PWR06" H 7200 2100 50  0001 C CNN
+F 1 "GND" H 7205 2177 50  0000 C CNN
+F 2 "" H 7200 2350 50  0001 C CNN
+F 3 "" H 7200 2350 50  0001 C CNN
+	1    7200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2350 7000 2350
+NoConn ~ 7000 2250
+$Comp
+L power:+3.3V #PWR05
+U 1 1 6189E50C
+P 5850 2150
+F 0 "#PWR05" H 5850 2000 50  0001 C CNN
+F 1 "+3.3V" H 5792 2187 50  0000 R CNN
+F 2 "" H 5850 2150 50  0000 C CNN
+F 3 "" H 5850 2150 50  0000 C CNN
+	1    5850 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2150 5850 2150
+NoConn ~ 6000 2050
+NoConn ~ 6000 1650
+Text Label 6000 1750 2    50   ~ 0
+STEP_DMODE0
+Text Label 6000 1850 2    50   ~ 0
+STEP_DMODE1
+Text Label 6000 1950 2    50   ~ 0
+STEP_DMODE2
+Text Label 2800 3150 0    50   ~ 0
+STEP_DMODE0
+Text Label 2800 3050 0    50   ~ 0
+STEP_DMODE1
+Text Label 2800 2950 0    50   ~ 0
+STEP_DMODE2
+Text Label 9000 1500 0    50   ~ 0
+V_BAT
+$Comp
+L Device:R_Small R16
+U 1 1 618D7B1B
+P 9000 1700
+F 0 "R16" H 9059 1746 50  0000 L CNN
+F 1 "113k" H 9059 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 1700 50  0001 C CNN
+F 3 "~" H 9000 1700 50  0001 C CNN
+F 4 "311-113KHRCT-ND" H 9000 1700 50  0001 C CNN "Digikey Part Num"
+	1    9000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R19
+U 1 1 618D9266
+P 9000 2000
+F 0 "R19" H 9059 2046 50  0000 L CNN
+F 1 "10k" H 9059 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 2000 50  0001 C CNN
+F 3 "~" H 9000 2000 50  0001 C CNN
+F 4 "n/a" H 9000 2000 50  0001 C CNN "Digikey Part Num"
+	1    9000 2000
+	1    0    0    -1  
+$EndComp
+Text Label 8850 1850 2    50   ~ 0
+V_BAT_Div
+$Comp
+L power:GND #PWR092
+U 1 1 618DA4EE
+P 9000 2200
+F 0 "#PWR092" H 9000 1950 50  0001 C CNN
+F 1 "GND" H 9005 2027 50  0000 C CNN
+F 2 "" H 9000 2200 50  0001 C CNN
+F 3 "" H 9000 2200 50  0001 C CNN
+	1    9000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2200 9000 2100
+Wire Wire Line
+	8850 1850 9000 1850
+Wire Wire Line
+	9000 1850 9000 1800
+Wire Wire Line
+	9000 1850 9000 1900
+Connection ~ 9000 1850
+Wire Wire Line
+	9000 1600 9000 1500
+Text Label 2800 2850 0    50   ~ 0
+V_BAT_Div
+$Comp
+L ASTRA_Library:XT60_Battery_Connector BT1
+U 1 1 61943686
+P 10650 1000
+F 0 "BT1" H 10778 1046 50  0000 L CNN
+F 1 "XT60_Battery_Connector" H 10778 955 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 10650 1000 50  0001 C CNN
+F 3 "" H 10650 1000 50  0001 C CNN
+	1    10650 1000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
