@@ -245,8 +245,6 @@ F 4 "ZLDO1117G33DICT-ND" H 10550 2600 50  0001 C CNN "Digikey Part Num"
 $EndComp
 Wire Wire Line
 	10550 2900 10550 3050
-Wire Wire Line
-	2850 1550 2800 1550
 $Comp
 L power:+5V #PWR080
 U 1 1 612008F5
@@ -263,43 +261,41 @@ Wire Wire Line
 $Comp
 L power:GND #PWR089
 U 1 1 61203FD9
-P 3400 1700
-F 0 "#PWR089" H 3400 1450 50  0001 C CNN
-F 1 "GND" H 3400 1550 50  0000 C CNN
-F 2 "" H 3400 1700 50  0000 C CNN
-F 3 "" H 3400 1700 50  0000 C CNN
-	1    3400 1700
+P 3400 1450
+F 0 "#PWR089" H 3400 1200 50  0001 C CNN
+F 1 "GND" H 3400 1300 50  0000 C CNN
+F 2 "" H 3400 1450 50  0000 C CNN
+F 3 "" H 3400 1450 50  0000 C CNN
+	1    3400 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2800 1450 3400 1450
-Wire Wire Line
-	3400 1450 3400 1700
 Text Label 1900 2650 2    60   ~ 0
 ADC_DATA
 Text Label 2800 2650 0    60   ~ 0
 ADC_CLK
-Text Label 1900 2850 2    60   ~ 0
+Text Label 1900 3650 2    60   ~ 0
 PWR_DOWN
-Text Label 1900 2950 2    60   ~ 0
+Text Label 1900 3450 2    60   ~ 0
 DATA_RDY
-Text Label 1900 3250 2    60   ~ 0
+Text Label 1900 3550 2    60   ~ 0
 CLR_DATA
 Text Label 1900 3350 2    60   ~ 0
 SHUTTER
-Text Label 1900 3450 2    60   ~ 0
+Text Label 1900 3250 2    60   ~ 0
 CLR_PIX
-Text Label 1900 3550 2    60   ~ 0
+Text Label 1900 2350 2    60   ~ 0
 READ
 Text Label 1900 2450 2    60   ~ 0
 ADC_CS
-Text Label 2800 2550 0    60   ~ 0
+Text Label 1900 2850 2    60   ~ 0
 VIDEO_P
-Text Label 2800 2450 0    60   ~ 0
+Text Label 1900 2950 2    60   ~ 0
 VIDEO_N
-Text Label 2800 2050 0    60   ~ 0
+Text Label 2800 2350 0    60   ~ 0
 SCL
-Text Label 2800 2150 0    60   ~ 0
+Text Label 2800 2250 0    60   ~ 0
 SDA
 $Comp
 L power:GND #PWR02
@@ -327,12 +323,10 @@ F 3 "" H 3550 2750 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2800 2750 3550 2750
-Text Label 10050 6800 2    50   ~ 0
+Text Label 10300 7850 0    50   ~ 0
 SDA
-Text Label 10300 6800 0    50   ~ 0
+Text Label 10050 7850 2    50   ~ 0
 SCL
-Text Label 2850 1550 0    50   ~ 0
-TEENSY_3.3
 $Comp
 L Device:R_Small R12
 U 1 1 6122D83C
@@ -1133,9 +1127,9 @@ Text Label 8000 10500 2    50   ~ 0
 QWIIC_SCL
 Text Label 8000 10600 2    50   ~ 0
 QWIIC_SDA
-Text Label 2800 2350 0    50   ~ 0
+Text Label 2800 2050 0    50   ~ 0
 QWIIC_SCL
-Text Label 2800 2250 0    50   ~ 0
+Text Label 2800 2150 0    50   ~ 0
 QWIIC_SDA
 $Comp
 L ArmElectronics_Library:AH1815-P-B U1
@@ -1215,7 +1209,7 @@ U 1 1 6153CAB3
 P 6400 6550
 F 0 "J1" H 6480 6542 50  0000 L CNN
 F 1 "Angle Sensor" H 6480 6451 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 6400 6550 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 6400 6550 50  0001 C CNN
 F 3 "~" H 6400 6550 50  0001 C CNN
 F 4 "455-1708-ND" H 6400 6550 50  0001 C CNN "Digikey Part Num"
 	1    6400 6550
@@ -1263,36 +1257,36 @@ Text Label 1900 1550 2    50   ~ 0
 CIPO1
 Text Label 1900 3050 2    50   ~ 0
 COPI1
-Text Label 1900 3650 2    50   ~ 0
+Text Label 2800 2450 0    50   ~ 0
 MOSFET4
-Text Label 2800 3650 0    50   ~ 0
+Text Label 2800 2550 0    50   ~ 0
 MOSFET5
-Text Label 1900 2150 2    50   ~ 0
+Text Label 1900 1650 2    50   ~ 0
 MOSFET1
-Text Label 1900 2250 2    50   ~ 0
+Text Label 1900 1750 2    50   ~ 0
 MOSFET2
-Text Label 1900 2350 2    50   ~ 0
+Text Label 2800 1750 0    50   ~ 0
 MOSFET3
 NoConn ~ 1900 2550
-Text Label 1900 1650 2    50   ~ 0
+Text Label 1900 2050 2    50   ~ 0
 M1_PWM
-Text Label 1900 1750 2    50   ~ 0
+Text Label 1900 1950 2    50   ~ 0
 M2_PWM
 Text Label 1900 1850 2    50   ~ 0
 M3_PWM
-Text Label 1900 1950 2    50   ~ 0
+Text Label 1900 2150 2    50   ~ 0
 M4_PWM
-Text Label 1900 2050 2    50   ~ 0
+Text Label 1900 2250 2    50   ~ 0
 M5_PWM
-Text Label 2800 3550 0    50   ~ 0
+Text Label 2800 2850 0    50   ~ 0
 LED1
-Text Label 2800 3450 0    50   ~ 0
+Text Label 2800 2950 0    50   ~ 0
 LED2
-Text Label 2800 3350 0    50   ~ 0
+Text Label 2800 3550 0    50   ~ 0
 STEP_STEP
-Text Label 2800 3250 0    50   ~ 0
+Text Label 2800 3650 0    50   ~ 0
 STEP_DIR
-Text Label 2800 1750 0    50   ~ 0
+Text Label 2800 3050 0    50   ~ 0
 BULB
 $Comp
 L Connector_Generic:Conn_01x02 J6
@@ -2099,9 +2093,9 @@ F 3 "" H 10050 7350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10050 7350
-Text Label 10050 7850 2    50   ~ 0
+Text Label 10300 6800 0    50   ~ 0
 QWIIC_SCL
-Text Label 10300 7850 0    50   ~ 0
+Text Label 10050 6800 2    50   ~ 0
 QWIIC_SDA
 $Comp
 L ArmElectronics_Library:AH1815-P-B U6
@@ -2461,11 +2455,11 @@ Text Label 6000 1850 2    50   ~ 0
 STEP_DMODE1
 Text Label 6000 1950 2    50   ~ 0
 STEP_DMODE2
-Text Label 2800 3150 0    50   ~ 0
+Text Label 2800 3250 0    50   ~ 0
 STEP_DMODE0
-Text Label 2800 3050 0    50   ~ 0
+Text Label 2800 3350 0    50   ~ 0
 STEP_DMODE1
-Text Label 2800 2950 0    50   ~ 0
+Text Label 2800 3450 0    50   ~ 0
 STEP_DMODE2
 Text Label 9000 1500 0    50   ~ 0
 V_BAT
@@ -2517,7 +2511,7 @@ Wire Wire Line
 Connection ~ 9000 1850
 Wire Wire Line
 	9000 1600 9000 1500
-Text Label 2800 2850 0    50   ~ 0
+Text Label 2800 3150 0    50   ~ 0
 V_BAT_Div
 $Comp
 L ASTRA_Library:XT60_Battery_Connector BT1
@@ -2530,4 +2524,50 @@ F 3 "" H 10650 1000 50  0001 C CNN
 	1    10650 1000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 619B14A8
+P 1050 10400
+F 0 "H1" H 1150 10446 50  0000 L CNN
+F 1 "MountingHole" H 1150 10355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1050 10400 50  0001 C CNN
+F 3 "~" H 1050 10400 50  0001 C CNN
+	1    1050 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 619B4FAD
+P 1050 10600
+F 0 "H2" H 1150 10646 50  0000 L CNN
+F 1 "MountingHole" H 1150 10555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1050 10600 50  0001 C CNN
+F 3 "~" H 1050 10600 50  0001 C CNN
+	1    1050 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 619B5149
+P 1050 10800
+F 0 "H3" H 1150 10846 50  0000 L CNN
+F 1 "MountingHole" H 1150 10755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1050 10800 50  0001 C CNN
+F 3 "~" H 1050 10800 50  0001 C CNN
+	1    1050 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 61CEDF09
+P 3250 1550
+F 0 "#PWR0101" H 3250 1400 50  0001 C CNN
+F 1 "+3.3V" V 3250 1800 50  0000 C CNN
+F 2 "" H 3250 1550 50  0000 C CNN
+F 3 "" H 3250 1550 50  0000 C CNN
+	1    3250 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1550 3250 1550
 $EndSCHEMATC
